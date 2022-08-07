@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="//fonts.googleapis.com/css?family=Roboto:300,400,700&subset=vietnamese&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <title>FSoft</title>
+</head>
+
+<body>
+    <main>
+        <h1>FPT Software</h1>
+        <form action="#">
+            <div class="time-1 time">
+                <div>
+                    <input type="text" placeholder="First name" name="firstName">
+                    <p style="color: red;" id="firstNameErorr"></p>
+                </div>
+                <div>
+                    <input type="text" placeholder="Last name" name="lastName">
+                    <p style="color: red" id="lastNameErorr"></p>
+                </div>
+            </div>
+
+            <div class="time-2 time">
+                <div>
+                    <input type="text" placeholder="Email" name="email">
+                    <p style="color: red" id="emailErorr"></p>
+                </div>
+                <div>
+                    <input type="tel" placeholder="Phone" name="phone">
+                    <p style="color: red" id="phoneErorr"></p>
+                </div>
+            </div>
+
+            <div class="time-3 time">
+                <select name="country" id="">
+                    <option value="">Select country</option>
+                </select>
+                <p style="color: red" id="countryErorr"></p>
+            </div>
+
+            <div class="time-4 time">
+                <input type="text" placeholder="City" name="city">
+                <p style="color: red" id="cityErorr"></p>
+            </div>
+
+            <div class="time-5 time">
+                <select name="position" id="">
+                    <option value="">Choose desire position</option>
+                </select>
+                <p style="color: red" id="positionError"></p>
+            </div>
+
+            <div class="time-6 time">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Additional info"></textarea>
+            </div>
+
+            <div class="time-7">
+                <input type="reset" value="Reset">
+                <input type="submit" value="Send" name="send">
+            </div>
+        </form>
+    </main>
+</body>
+<script src="./assets/js/main.js"></script>
+
+</html>

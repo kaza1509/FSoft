@@ -1,0 +1,78 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #003F69;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #131313;
+}
+
+main {
+    background-color: #fff!important;
+    padding: 25px;
+    min-width: 50%;
+    min-height: 70vh;
+}
+
+main .time-1,
+main .time-2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+main .time {
+    width: 100%!important;
+}
+
+.time-1 > div,
+.time-2 > div  {
+    width: 50%;
+}
+
+.time-1 > div:first-child,
+.time-2 > div:first-child  {
+    margin-right: 15px!important;
+}
+
+.time input,
+.time select,
+.time textarea {
+    width: 100%;
+    margin: 10px 0;
+    padding: 8px;
+    border-radius: 4px;
+    border: 2px solid #000;
+}
+
+.time-7 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.time-7 input {
+    /* margin-right: 15px; */
+    background-color: #F99104;
+    color:#fff;
+    padding: 7px 20px;
+    outline: none;
+    border: 0;
+}
+
+@media screen and (max-width: 968px) {
+    .time-1, .time-2 {
+        display: block!important;
+    }
+
+    .time div {
+        width: 100%;
+    }
+}
